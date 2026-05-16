@@ -2,7 +2,7 @@ Microphone Amplifier with Class-AB Driver
 
 A multi-stage transistor-based audio amplifier designed to amplify weak microphone signals using a Class-AB push-pull output stage.
 
-Overview
+Overview:
 
 This project demonstrates the design and simulation of a transistor-based microphone amplifier using BC547 and BC557 bipolar junction transistors along with passive components such as resistors, capacitors, and diodes.
 
@@ -17,32 +17,32 @@ Class-AB push-pull output stage
 
 The use of diode biasing enables Class-AB operation, improving efficiency while reducing crossover distortion.
 
-Components Used
-Component	Description
+Components Used:
 BC547	NPN Transistor
 BC557	PNP Transistor
 1N4148	Diode
 Capacitors	10 µF, 100 µF, 220 µF
 Resistors	Biasing and current control
 Power Supply	12 V DC
-Working Principle
-Input Stage
+
+Working Principle:
+Input Stage:
 
 The microphone signal is applied through a coupling capacitor that blocks DC components and allows only the AC signal to pass into the amplifier.
 
-Voltage Amplifier Stage
+Voltage Amplifier Stage:
 
 A common-emitter transistor stage provides significant voltage gain to amplify the weak input signal.
 
-Driver Stage
+Driver Stage:
 
 The driver transistor increases the current capability of the signal and acts as a buffer for the output stage.
 
-Biasing Network
+Biasing Network:
 
 Two diodes provide approximately 1.4 V biasing to ensure that the output transistors remain slightly conducting, thereby reducing crossover distortion.
 
-Class-AB Push-Pull Output Stage
+Class-AB Push-Pull Output Stage:
 
 The final stage uses complementary NPN and PNP transistors:
 
@@ -61,21 +61,19 @@ The circuit was designed and simulated using LTspice to analyze amplifier behavi
 Output Waveform
 <img width="776" height="412" alt="image" src="https://github.com/user-attachments/assets/19a90762-9b2d-47ec-a59f-29e4aa7003dd" />
 
-Features
+Features:
 Multi-stage transistor amplifier design
 Class-AB push-pull output configuration
 Reduced crossover distortion through diode biasing
 Improved current driving capability
 Suitable for low-amplitude audio signal amplification
-Applications
+
+Applications:
 Microphone amplifiers
 Audio amplification systems
 Public address systems
 Portable speaker systems
 Communication equipment
-Future Improvements
-PCB implementation
-Noise reduction optimization
-Tone control integration
+
 Portable battery-powered implementation
 Higher power output stage
