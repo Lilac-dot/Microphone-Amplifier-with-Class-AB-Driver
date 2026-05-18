@@ -2,7 +2,7 @@
 
 ### Microphone Amplifier with Class-AB Driver
 
-A discrete transistor-based audio amplifier that takes microphone-level signals and delivers amplified output through a low-distortion Class-AB push-pull stage — designed and simulated from first principles.
+A discrete transistor-based audio amplifier that takes microphone-level signals and delivers amplified output through a low-distortion Class-AB push-pull stage, designed and simulated from first principles.
 
 </div>
 
