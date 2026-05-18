@@ -1,16 +1,8 @@
 <div align="center">
 
-# Microphone Amplifier with Class-AB Driver
+### Microphone Amplifier with Class-AB Driver
 
-### Multi-Stage Audio Amplifier using BJTs and Push-Pull Output Stage
-
-![Platform](https://img.shields.io/badge/Domain-Analog%20Electronics-blue?style=for-the-badge)
-![Transistors](https://img.shields.io/badge/Transistors-BC547%20%2F%20BC557-darkgreen?style=for-the-badge)
-![Simulation](https://img.shields.io/badge/Simulation-LTspice-8A2BE2?style=for-the-badge)
-![Stage](https://img.shields.io/badge/Output%20Stage-Class--AB-orange?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
-
-*A discrete transistor-based audio amplifier that takes microphone-level signals and delivers amplified output through a low-distortion Class-AB push-pull stage — designed and simulated from first principles.*
+A discrete transistor-based audio amplifier that takes microphone-level signals and delivers amplified output through a low-distortion Class-AB push-pull stage — designed and simulated from first principles.
 
 </div>
 
